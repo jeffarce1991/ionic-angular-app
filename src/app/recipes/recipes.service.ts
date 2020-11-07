@@ -8,13 +8,13 @@ export class RecipesService {
   
   private recipes: Recipe[] = [{
     id: 'r1',
-    title: 'Schnitzel',
+    title: 'Fries and Chick',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Schnitzel.JPG/1024px-Schnitzel.JPG',
-    ingredients: ['French Fries', 'Lemon', 'Vegetable']
+    ingredients: ['French Fries', 'Lemon', 'Chicken']
   },
   {
     id: 'r2',
-    title: 'Spaghetti',
+    title: 'Spaghetti Ala Pappi',
     imageUrl: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/homemade-spaghetti-sauce-horizontal-1530890913.jpg',
     ingredients: ['Pasta', 'Meat', 'Tomatoes']
   }
