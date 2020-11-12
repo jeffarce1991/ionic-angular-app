@@ -14,7 +14,7 @@ export class RecipesService {
   },
   {
     id: 'r2',
-    title: 'Spaghetti Ala Pappi',
+    title: 'Spaghetti',
     imageUrl: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/homemade-spaghetti-sauce-horizontal-1530890913.jpg',
     ingredients: ['Pasta', 'Meat', 'Tomatoes']
   }
