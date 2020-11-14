@@ -5,7 +5,7 @@ import { PlacesPage } from './places.page';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'tabs',
     component: PlacesPage,
     children: [
       {
