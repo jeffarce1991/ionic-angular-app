@@ -9,8 +9,8 @@ export class PlacesService {
   private _places: Place[] = [
     new Place('p1',
       'Prontera',
-      'The Market place of Ragnarok',
       'Prontera (Korean: 프론테라) is the capital of the kingdom of Rune-Midgarts. Many people live actively in this city. The Prontera Church and the King`s Chivalry are also based here. ... Through the orders of King Tristan Gaebolg III, new Swordsmen are being trained to become a member of the Chivalry.',
+      'https://vignette.wikia.nocookie.net/pro/images/1/13/Prontera3D.jpg/revision/latest?cb=20120526043751',
       159.99),
     new Place('p2',
       'Payon',
@@ -25,7 +25,7 @@ export class PlacesService {
   ];
 
   get places() {
-    return [...this.places];
+    return [...this._places];
   }
   
   constructor() { }
