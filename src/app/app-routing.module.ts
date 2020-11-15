@@ -5,15 +5,15 @@ const routes: Routes = [
   { path: '', redirectTo: 'places', pathMatch: 'full' },
   {
     path: 'auth',
-    loadChildren: () => import('./auth/auth.module').then( m => m.AuthPageModule)
+    loadChildren: './auth/auth.module#AuthPageModule'
   },
   {
     path: 'places',
-    loadChildren: () => import('./places/places.module').then( m => m.PlacesPageModule)
+    loadChildren: './places/places.module#PlacesPageModule'
   },
   {
     path: 'bookings',
-    loadChildren: () => import('./bookings/bookings.module').then( m => m.BookingsPageModule)
+    loadChildren: './bookings/bookings.module#BookingsPageModule'
   }
 ];
 
