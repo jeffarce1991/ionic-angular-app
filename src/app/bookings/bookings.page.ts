@@ -16,12 +16,9 @@ export class BookingsPage implements OnInit {
     this.loadedBookings = this.bookingsService.bookings;
   }
 
-  onDelete(bookingId: string, item: IonItemSliding) {
+  onCancel(bookingId: string, item: IonItemSliding) {
+    item.close();
+    // cancel booking with id offerId
 
   }
-
-  onEdit(bookingId: string, item: IonItemSliding) {
-
-  }
-
 }
